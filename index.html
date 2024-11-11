@@ -6,41 +6,66 @@
     <title>Studiu de Caz: Importanța Utilizării Git și GitHub</title>
     <style>
         /* Stilizarea corpului paginii */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+       
+    /* Stilizarea corpului paginii */
+    
+    /* Stilizarea corpului paginii */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
 
-        /* Stilizarea containerului */
-        .container {
-            background-color: #ffffff;
-            padding: 20px;
-            max-width: 800px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            border: 2px solid #007acc;
-            text-align: center;
-        }
+    /* Stilizarea containerului */
+    .container {
+        background-color: #ffffff;
+        padding: 20px;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border: 2px solid #007acc;
+        text-align: center;
+    }
 
-        /* Stilizarea titlurilor */
-        h1 {
-            color: #007acc;
-        }
-        
-        h2 {
-            color: #333333;
-        }
+    /* Stilizarea titlurilor */
+    h1 {
+        color: #007acc;
+    }
+    
+    h2 {
+        color: #333333;
+    }
 
-        /* Stilizarea textului */
-        p {
-            color: #555555;
-            line-height: 1.6;
-        }
+    /* Stilizarea textului */
+    p {
+        color: #555555;
+        line-height: 1.6;
+    }
+
+    /* Stilizarea codului */
+    .code {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        text-align: left;
+        overflow-x: auto;
+    }
+
+    /* Stilizarea imaginilor */
+    img {
+        max-width: 60%; /* Limitează lățimea imaginii la 60% din container */
+        border-radius: 5px;
+        margin: 10px auto;
+        display: block;
+    }
+
+
     </style>
 </head>
 <body>
@@ -53,16 +78,25 @@
         <p>Gestionarea versiunilor: Git permite urmărirea tuturor modificărilor făcute în codul sursă. Fiecare modificare este înregistrată, ceea ce face ușor de urmărit cine a făcut modificări și de ce.
             Colaborare eficientă: GitHub facilitează colaborarea prin funcționalități precum pull requests și cod review, care ajută membrii echipei să propună, să revizuiască și să discute modificările de cod într-un mod centralizat.
             Securitatea și integritatea codului: Codul este stocat în siguranță și poate fi restaurat în cazul unor greșeli sau modificări neintenționate.</p>
-        
+            <div class="code">
+                <code>git init</code>
+            </div>
+            <img src="img/pexels-nemuel-6424584.jpg" alt="Inițializarea unui repository Git">
         <h2>2. Utilizarea GitHub pentru managementul proiectelor</h2>
         <p>Planificarea și urmărirea progresului: GitHub Projects permite crearea și urmărirea taskurilor într-un proiect, astfel încât fiecare membru să știe ce are de făcut și care sunt termenele limită.
             Împărțirea task-urilor: Task-urile mari pot fi împărțite în subtasks, care sunt atribuite membrilor echipei. Acest lucru permite o organizare mai bună a muncii și asigură că toată lumea știe ce are de făcut.
             Monitorizarea progresului și raportarea: Cu ajutorul GitHub Issues și proiectelor, se poate urmări evoluția task-urilor în timp real, iar managerii de proiect pot observa cu ușurință ce blocaje apar sau ce task-uri necesită mai mult timp decât a fost estimat.</p>
-        
+            <div class="code">
+                <code>git add .</code><br>
+                <code>git commit -m "Prima modificare"</code>
+            </div>
+            <img src="img/pexels-nemuel-6424586.jpg" alt="Procesul de commit în Git">
         <h2>3. Automatizarea și suportul prin GitHub Copilot</h2>
         <p>Sugestii de cod: GitHub Copilot poate sugera automat cod bazat pe descrierea unei funcții sau comentarii, economisind timp și reducând greșelile.
             Învățare rapidă: Cu ajutorul Copilot, noii membri ai echipei pot învăța mai repede stilul și structura proiectului, deoarece primesc sugestii contextuale care respectă tiparele deja stabilite.</p>
+            <img src="img/pexels-pixabay-247791.jpg" alt="Exemplu Pull Request pe GitHub">
     </div>
+    
     
 </body>
 </html>
